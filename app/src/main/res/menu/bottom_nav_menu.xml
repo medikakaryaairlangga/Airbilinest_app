@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bilinorm"
+        android:icon="@drawable/ic_bilinorm"
+        android:title="@string/title_biliNorm"/>
+
+    <item
+        android:id="@+id/navigation_airbilinest"
+        android:icon="@drawable/ic_airbilinest"
+        android:title="@string/title_airbilinest" />
+    <item
+        android:id="@+id/navigation_record"
+        android:icon="@drawable/ic_record"
+        android:title="@string/title_record" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_about"
+        android:title="@string/title_about" />
+
+</menu>

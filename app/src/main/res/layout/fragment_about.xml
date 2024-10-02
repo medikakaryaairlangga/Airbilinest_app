@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.right.RightFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars = "none"
+        android:padding="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="MKA"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/medika_logo" />
+
+            <TextView
+                android:id="@+id/textAbout1"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/imageView2"
+                android:justificationMode="inter_word"
+                android:text="@string/text_about_1" />
+
+            <View
+                android:id="@+id/lineText"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:layout_below="@+id/textAbout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:background="@android:color/darker_gray"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/airbilinest_text_logo"
+                android:contentDescription="Airbilinest"
+                android:layout_width="260dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/lineText"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/airbilinesttext" />
+
+            <TextView
+                android:id="@+id/textAbout2"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/airbilinest_text_logo"
+                android:justificationMode="inter_word"
+                android:text="@string/text_manual" />
+
+            <Button
+                android:id="@+id/btn_manual"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Airbilinest manual"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/textAbout2"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="how to use the app"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/btn_manual"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/btn_faq"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="FaQ"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/btn_help"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_faq"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="90dp">
+
+                <ImageButton
+                    android:id="@+id/insta_btn"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="40dp"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="Instagram"
+                    android:src="@drawable/instagram" />
+
+                <ImageButton
+                    android:id="@+id/linkedin_btn"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="Linkedin"
+                    android:src="@drawable/linkedin" />
+
+                <ImageButton
+                    android:id="@+id/youtube_btn"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="Linkedin"
+                    android:src="@drawable/youtube" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

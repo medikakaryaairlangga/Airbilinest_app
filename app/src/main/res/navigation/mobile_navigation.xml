@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_airbilinest">
+
+    <fragment
+        android:id="@+id/navigation_bilinorm"
+        android:name="com.mka.airbilinest.ui.left.LeftFragment"
+        android:label="bilinorm"
+        tools:layout="@layout/fragment_bilinorm" />
+
+    <fragment
+        android:id="@+id/navigation_airbilinest"
+        android:name="com.mka.airbilinest.ui.center.CenterFragment"
+        android:label="airbilinest"
+        tools:layout="@layout/fragment_airbilinest" />
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.mka.airbilinest.ui.right.RightFragment"
+        android:label="about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/navigation_record"
+        android:name="com.mka.airbilinest.ui.record.RecordFragment"
+        android:label="Data Record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/patientFormFragment"
+        android:name="com.mka.airbilinest.PatientFormFragment"
+        android:label="PatientFormFragment" />
+</navigation>
