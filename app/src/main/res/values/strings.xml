@@ -153,4 +153,8 @@
         Click to download the manual for your AirBiliNest Series
     </string>
 
+    <string name="welcome">
+        <b>Welcome</b>
+    </string>
+
 </resources>
