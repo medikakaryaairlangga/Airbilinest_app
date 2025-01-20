@@ -29,7 +29,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Patient ID:"/>
+                android:text="@string/patient_id"/>
 
             <EditText
                 android:id="@+id/patientId"
@@ -46,11 +46,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Patient Name:"/>
+                android:text="@string/patient_name"/>
 
             <EditText
                 android:id="@+id/patientName"
-                android:hint="Patient Name"
+                android:hint="@string/patient_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -63,11 +63,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Weight (gram):"/>
+                android:text="@string/patient_weight"/>
 
             <EditText
                 android:id="@+id/weight"
-                android:hint="Weight (gram)"
+                android:hint="@string/patient_weight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -81,7 +81,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="20dp"
-                android:text="Birth Date"/>
+                android:text="@string/patient_birth"/>
 
             <DatePicker
                 android:id="@+id/birthDate"
@@ -99,7 +99,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="20dp"
-                android:text="Date Choosen:"/>
+                android:text="@string/date_choosen"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -108,11 +108,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Beginning Bilirubin (mg/dL):"/>
+                android:text="@string/bilirubin_start"/>
 
             <EditText
                 android:id="@+id/bilirubinStart"
-                android:hint="Bilirubin Start (mg/dL)"
+                android:hint="Bilirubin (mg/dL)"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -125,11 +125,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Phototherapy duration (hour):"/>
+                android:text="@string/phototherapy_duration"/>
 
             <EditText
                 android:id="@+id/lengthOfPhototherapy"
-                android:hint="Phototherapy duration (hour)"
+                android:hint="@string/phototherapy_duration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -142,11 +142,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Phototherapy Intensity (uW/cm^2/nm):"/>
+                android:text="@string/phototherapy_intent"/>
 
             <EditText
                 android:id="@+id/phototherapyIntensity"
-                android:hint="Phototherapy Intensity (uW/cm^2/nm)"
+                android:hint="@string/phototherapy_intent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -159,11 +159,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="15dp"
-                android:text="Ending Bilirubin (mg/dL):"/>
+                android:text="@string/bilirubin_ending"/>
 
             <EditText
                 android:id="@+id/bilirubinEnd"
-                android:hint="Bilirubin Ending (mg/dL)"
+                android:hint="@string/bilirubin_ending"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -171,7 +171,7 @@
 
             <Button
                 android:id="@+id/saveButton"
-                android:text="Save"
+                android:text="@string/save"
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

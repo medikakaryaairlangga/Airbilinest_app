@@ -14,7 +14,7 @@
         android:layout_height="86dp"
         android:background="@drawable/button_1"
         android:foreground="?android:attr/selectableItemBackground"
-        android:text="Start"
+        android:text="@string/text_start"
         android:textColor="@color/white"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"

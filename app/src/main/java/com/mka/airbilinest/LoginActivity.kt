@@ -10,7 +10,7 @@ import com.mka.airbilinest.database.DatabaseHelper
 import com.mka.airbilinest.model.user
 //import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity() {
+class LoginActivity : BaseActivity() {
     private val databaseHelper = DatabaseHelper(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {

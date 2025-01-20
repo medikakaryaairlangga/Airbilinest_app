@@ -1,5 +1,6 @@
 package com.mka.airbilinest.ui.center
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,12 +8,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.mka.airbilinest.BaseFragment
 import com.mka.airbilinest.ControlActivity
 import com.mka.airbilinest.R
 import com.mka.airbilinest.databinding.FragmentAirbilinestBinding
 
 
-class CenterFragment : Fragment() {
+class CenterFragment : BaseFragment() {
 
     private var _binding: FragmentAirbilinestBinding? = null
 
@@ -34,9 +36,11 @@ class CenterFragment : Fragment() {
             startActivity(intent)
         }
 
-
-
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
     override fun onDestroyView() {

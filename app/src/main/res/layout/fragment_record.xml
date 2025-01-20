@@ -21,7 +21,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="56dp"
             android:layout_toStartOf="@+id/exportButton"
-            android:text="Add Patient"
+            android:text="@string/text_addpatient"
             android:textColor="@color/white" />
 
         <Button
@@ -31,7 +31,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="0dp"
-            android:text="Export to Excel"
+            android:text="@string/text_exporttoexcel"
             android:textColor="@color/white" />
 
         <androidx.recyclerview.widget.RecyclerView

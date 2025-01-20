@@ -11,7 +11,7 @@ import android.os.Looper
 import androidx.core.view.WindowInsetsCompat
 
 @Suppress("DEPRECATION")
-class SplashScreen : AppCompatActivity() {
+class SplashScreen : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

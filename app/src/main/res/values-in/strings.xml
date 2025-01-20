@@ -28,10 +28,10 @@
         FaQ
     </string>
     <string name="text_useapp">
-        Cara penggunaan aplikasi
+        Cara menggunakan aplikasi
     </string>
     <string name="text_abnmanual">
-        Cara penggunaan AirBiliNest
+        Cara menggunakan AirBiliNest
     </string>
 
 
@@ -57,7 +57,7 @@
     </string>
     <string name="text_apphelp_4">
         Di layar beranda terdapat tombol mulai untuk membuka halaman kontrol, Pastikan ponsel Anda sudah terhubung ke WiFi AirBiliNest,
-        \n\nSSID\t\t\t\t\t: AirBiliNest_SN
+        \n\nSSID\t\t\t\t\t: AirBiliNest
         \nPassword\t: 123456789
         \n\nSetelah telepon Anda terhubung, Anda dapat mengakses halaman kontrol dengan mengeklik tombol.
         \n\nHalaman kontrol memiliki beberapa ikon seperti ini,
@@ -192,19 +192,18 @@
     <string name="text_exporttoexcel">Export ke Excel</string>
 
     <!-- Patient record -->
-    <string name="patient_id">Patient ID</string>
-    <string name="patient_name">Patient Name</string>
-    <string name="patient_weight">Weight (gram)</string>
-    <string name="patient_birth">Birth Date</string>
-    <string name="date_choosen">Date Choosen:</string>
-    <string name="bilirubin_start">Beginning Bilirubin (mg/dL)</string>
-    <string name="phototherapy_duration">Phototherapy duration (hour)</string>
-    <string name="phototherapy_intent">Phototherapy Intensity (uW/cm^2/nm)</string>
-    <string name="bilirubin_ending">Ending Bilirubin (mg/dL)</string>
-    <string name="save">save</string>
+    <string name="patient_id">ID Pasien</string>
+    <string name="patient_name">Nama Pasien</string>
+    <string name="patient_weight">Berat (gram)</string>
+    <string name="patient_birth">Tanggal Kelahiran</string>
+    <string name="date_choosen">Tanggal:</string>
+    <string name="bilirubin_start">Bilirubin Awal (mg/dL)</string>
+    <string name="phototherapy_duration">Durasi Fototerapi (jam)</string>
+    <string name="phototherapy_intent">Intensitas Fototerapi (uW/cm^2/nm)</string>
+    <string name="bilirubin_ending">Bilirubin Akhir (mg/dL)</string>
+    <string name="save">Simpan</string>
 
-    <string name="delete">Delete</string>
-
+    <string name="delete">Hapus</string>
 
     <!-- Platform -->
     <string name="platform_title">Platform</string>

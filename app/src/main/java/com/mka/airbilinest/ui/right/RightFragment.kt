@@ -7,16 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageButton
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.mka.airbilinest.ControlActivity
 import com.mka.airbilinest.R
 import com.mka.airbilinest.databinding.FragmentAboutBinding
 import android.net.Uri
 import com.mka.airbilinest.AppHelpActivity
 import com.mka.airbilinest.FaQActivity
 import com.mka.airbilinest.ManualActivity
+import com.mka.airbilinest.SettingsActivity
 
 
 class RightFragment : Fragment() {
@@ -54,6 +52,12 @@ class RightFragment : Fragment() {
             startActivity(i)
         }
 
+        val settingsBtn: Button = root.findViewById(R.id.btn_settings)
+        settingsBtn.setOnClickListener{
+            val i = Intent(context, SettingsActivity::class.java)
+            startActivity(i)
+        }
+
 
 
         val insta_btn: ImageButton = root.findViewById(R.id.insta_btn)
@@ -71,6 +75,12 @@ class RightFragment : Fragment() {
         val youtube_btn: ImageButton = root.findViewById(R.id.youtube_btn)
         youtube_btn.setOnClickListener{
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/@airbilinestofficial8761"))
+            startActivity(i)
+        }
+
+        val website_btn: ImageButton = root.findViewById(R.id.website_btn)
+        website_btn.setOnClickListener{
+            val i = Intent(Intent.ACTION_VIEW, Uri.parse("https://medikakaryaairlangga.com/"))
             startActivity(i)
         }
 

@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
 
-class PatientFormFragment : Fragment() {
+class PatientFormFragment : BaseFragment() {
 
     private lateinit var dbHelper: DatabaseHelper
     private var currentPatient: Patient? = null

@@ -87,7 +87,7 @@
                 android:id="@+id/btn_manual"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="Airbilinest manual"
+                android:text="@string/text_abnmanual"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/textAbout2"
@@ -101,7 +101,7 @@
                 android:id="@+id/btn_help"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="How to use the app"
+                android:text="@string/text_useapp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/btn_manual"
@@ -115,7 +115,7 @@
                 android:id="@+id/btn_faq"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="FaQ"
+                android:text="@string/text_faq"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_below="@id/btn_help"
@@ -125,10 +125,24 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginTop="10dp" />
 
+            <Button
+                android:id="@+id/btn_settings"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_settings"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/btn_faq"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="10dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/btn_faq"
+                android:layout_below="@id/btn_settings"
                 android:orientation="horizontal"
                 android:layout_marginTop="50dp"
                 android:layout_marginStart="50dp"
@@ -166,10 +180,21 @@
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
+                    android:background="?android:selectableItemBackground"
+                    android:contentDescription="Youtube"
+                    android:src="@drawable/youtube" />
+
+                <ImageButton
+                    android:id="@+id/website_btn"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
                     android:layout_marginEnd="40dp"
                     android:background="?android:selectableItemBackground"
-                    android:contentDescription="Linkedin"
-                    android:src="@drawable/youtube" />
+                    android:contentDescription="Website"
+                    android:src="@drawable/website" />
 
             </LinearLayout>
 

@@ -5,6 +5,10 @@
         android:id="@+id/navigation_bilinorm"
         android:icon="@drawable/ic_bilinorm"
         android:title="@string/title_biliNorm"/>
+    <item
+        android:id="@+id/navigation_platform"
+        android:icon="@drawable/ic_platform"
+        android:title="@string/platform_title" />
 
     <item
         android:id="@+id/navigation_airbilinest"
@@ -14,6 +18,7 @@
         android:id="@+id/navigation_record"
         android:icon="@drawable/ic_record"
         android:title="@string/title_record" />
+
 
     <item
         android:id="@+id/navigation_about"

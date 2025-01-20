@@ -31,4 +31,10 @@
         android:id="@+id/patientFormFragment"
         android:name="com.mka.airbilinest.PatientFormFragment"
         android:label="PatientFormFragment" />
+
+    <fragment
+        android:id="@+id/navigation_platform"
+        android:name="com.mka.airbilinest.ui.platform.platformFragment"
+        android:label="Platform"
+        tools:layout="@layout/fragment_platform" />
 </navigation>

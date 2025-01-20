@@ -2,128 +2,128 @@
 <resources>
     <string name="app_name">Airbilinest</string>
     <string name="title_airbilinest">AirBiliNest</string>
-    <string name="text_start">Mulai</string>
-    <string name="text_aribilinest_1">Pencet Mulai Untuk Memulai</string>
+    <string name="text_start">Start</string>
+    <string name="text_aribilinest_1">Press Start Button to Use and Control Your AirBiliNest</string>
     <string name="title_biliNorm">BiliNorm</string>
-    <string name="title_about">Tentang</string>
-    <string name="title_record">Rekam Data</string>
+    <string name="title_about">About Us</string>
+    <string name="title_record">Data Record</string>
 
-    <!-- ABOUT -->
+    <!-- About -->
     <string name="text_about_1">
-        AirBiliNest dari PT. Medika Karya Airlangga
-        \n\n\nVisi:
-        \n\nMenjadi perusahaan di era revolusi industri keempat sebagai penyedia peralatan kesehatan berbasis penelitian berkelanjutan dan penelitian inovatif.
-        \n\nMisi:
-        \n\nMemproduksi dan menyediakan produk-produk berkualitas tinggi dengan standar internasional, menawarkan kesempatan bagi sumber daya manusia
-        yang kompeten untuk menciptakan karya-karya dalam negeri yang berkualitas. Kami bertujuan untuk menguasai pasar nasional dan internasional.
+        AirBiliNest by PT. Medika Karya Airlangga
+        \n\n\nVision:
+        \n\nBecoming a company in the era of the fourth industrial revolution as a provider of healthcare equipment based on sustainable research and innovative research.
+        \n\nMision:
+        \n\nProducing and providing high-quality products with international standards, PT Medika Karya Airlangga offers opportunities for competent human resources to create quality domestic works. We aim to dominate both national and international market
     </string>
     <string name="text_manual">
-        Sistem Fototerapi Cerdas Airlangga Bilirubin Nesting atau yang biasa dikenal dengan AirBiliNest merupakan perangkat fototerapi portabel dengan dosis yang disesuaikan,
-        yang ditujukan untuk meningkatkan kualitas layanan fototerapi bagi bayi hiperbilirubinemia yang memenuhi standar masyarakat saat ini.
+        Smart Phototherapy System Airlangga Bilirubin Nesting or commonly known as AirBiliNest is a portable,
+        adjusted dose phototherapy device that is intended to improve the quality of phototherapy services for
+        hyperbilirubinemic babies that meet current community standards.
     </string>
     <string name="text_settings">
-        Pengaturan
+        Settings
     </string>
     <string name="text_faq">
         FaQ
     </string>
     <string name="text_useapp">
-        Cara penggunaan aplikasi
+        How to use the app
     </string>
     <string name="text_abnmanual">
-        Cara penggunaan AirBiliNest
+        Airbilinest manual
     </string>
 
-
+    <!-- HELP -->
     <string name="title_apphelp">
-        <b>Cara menggunakan aplikasi AirBiliNest</b>
+        <b>How to use AirBilinest App</b>
     </string>
     <string name="text_apphelp_1">
-        \nSaat pertama kali membuka aplikasi, Anda akan dihadapkan pada <u>Layar Utama AirBiliNest</u> yang memiliki tombol untuk membuka halaman kontrol -
-        untuk mengontrol AirBiliNest Anda. Di bagian bawah aplikasi terdapat bilah navigasi.
+        \nOn the first time you open the app, you will be facing the <u>AirBiliNest Home Screen</u> which has a button that will open the control page - to control
+        your AirBiliNest. On the bottom of the app there are the navigation bar.
     </string>
     <string name="text_apphelp_2">
         \n1. BiliNorm
         \n2. Platform
         \n3. AirBiliNest
-        \n4. Rekam Data
-        \n5. tentang kami dan pengaturan
+        \n4. Patient Data Record
+        \n5. About Us and Help
         \n\n<b>1. BiliNorm </b>
     </string>
     <string name="text_apphelp_3">
-        \nBBiliNorm merupakan aplikasi berbasis PWA yang terintegrasi dengan Pedoman Klinis Nasional Hiperbilirubinemia Neonatal Indonesia.
-        Aplikasi ini bertujuan untuk membantu tenaga kesehatan dalam penanganan hiperbilirubinemia neonatal.
+        \nBiliNorm is a PWA based application integrated with Indonesian National Clinical Guideline of Neonatal Hyperbilirubinemia.
+        This application aims to help health workers in neonatal hyperbilirubinemia management.
         \n\n<b>2. AirBiliNest</b>
     </string>
     <string name="text_apphelp_4">
-        Di layar beranda terdapat tombol mulai untuk membuka halaman kontrol, Pastikan ponsel Anda sudah terhubung ke WiFi AirBiliNest,
-        \n\nSSID\t\t\t\t\t: AirBiliNest_SN
+        On the home screen there is a start button to open the control page,
+        Make sure that your phone is already connected to the AirBiliNest WiFi,
+        \n\nSSID\t\t\t\t\t: AirBiliNest
         \nPassword\t: 123456789
-        \n\nSetelah telepon Anda terhubung, Anda dapat mengakses halaman kontrol dengan mengeklik tombol.
-        \n\nHalaman kontrol memiliki beberapa ikon seperti ini,
+        \n\nOnce your phone is connected you can access the control page by clicking the button.
+        \n\nThe control page have multiple icons like this,
     </string>
     <string name="text_apphelp_5">
-        \n1. Intensitas cahaya dalam Persentase
-        \n2. Fungsi slider untuk mengontrol Intensitas LED
-        \n3. Suhu sensor pada AirBiliNest
-        \n4. Kelembapan sensor pada AirBiliNest
-        \n5. Detak jantung per menit pasien pada sensor
-        \n6. Saturasi oksigen pasien pada sensor
-        \n7. Iradiasi cahaya biru dalam uW/cm^2/nm
-        \n8. Berapa lama fototerapi telah berjalan*
-        \n9. Tombol untuk mengatur ulang waktu
-        \n10. Tombol untuk menyalakan atau mematikan alarm
-        \n\n<i>*Waktu berjalan ketika lampu LED menyala, dan akan terhenti ketika lampu LED mati</i>
-        \n\n<b>Peringatan</b>:
-        \nKetika <u>suhu lebih tinggi dari 36°C</u> alarm akan menyala dan latar belakang akan berwarna merah,
-        mohon untuk segera melakukan pengecekan pada bayi dan AirBiliNest, dan menurunkan intensitas atau mematikan sementara lampu fototerapi
-        hingga suhu mencapai suhu yang aman.
-        \n\n<b>3. Rekam Data</b>
+        \n1. Light intensity in Percentage
+        \n2. Slider function to control the LED Intensity
+        \n3. Temperature of the sensor on AirBiliNest
+        \n4. Humidity of the sensor on AirBiliNest
+        \n5. Heart Rate value from the sensor
+        \n6. SpO2 value fromt he sensor
+        \n7. Irradiance of the blue light in uW/cm^2/nm
+        \n8. How long phototherapy has been running*
+        \n9. Button to reset the time
+        \n10. Button to turn on/off the alarm
+        \n\n<i>*The time start when the LEDs is being turn on, and paused when the LEDs is off</i>
+        \n\n<b>Warning</b>:
+        \nWhen the <u>temperature is higher than 36°C</u> an alarm will turn on and the background screen will turn red,
+        please immediately check for the AirBiliNest and the baby, and lower the intensity or turn off the light for a duratioin of time
+        until the temperature is in desire condition.
+        \n\n<b>3. Patient Record</b>
     </string>
     <string name="text_apphelp_6">
-        \nHalaman Rekam Data digunakan untuk merekan data pasien, tekan tombol <b>Tambah Pasien</b> untuk menambahkan pasien. Setelah itu anda dapat
-        memasukan data pasien, seperti:
+        \nPatient Record page can be used to record the patient data, press the <b>Add Patient</b> button to add new patient. After clicking
+        the button you can input the patient data including:
     </string>
     <string name="text_apphelp_7">
-        \nSetelah selesai anda dapat menekan tombol <b>Simpan</b>, data dapat dibuka kembali pada halaman utama dengan menekan nama pasien
-        . Gunakan tombol <b>Export ke Excel</b> untuk menyimpan data pasien dalam format excel (.xlsx) pada ponsel, file akan tersimpan pada folder
-        <b>download/unduhan</b> dengan nama<b>PatientData.xlsx</b>, dan tombol <b>Hapus</b> untuk menghapus data pasien.
+        \nAfter completing the form, you can click the <b>Save</b> button, the data can be opened again on the main screen by clicking the patient
+        name. Use the <b>Export to Excel</b> button to export all the saved patient data into your phone in excel (.xlsx) format, the file will be saved
         on your <b>download</b> folder under the name <b>PatientData.xlsx</b>, and <b>Delete</b> button to delete the patient data.
-
-        \n\n<b>4. Tentang</b>
-        \nBerisi tentang profil perusahaan, dan beberapa fungsi seperti: Manual AirBiliNest, Cara menggunakan aplikasi, Pertanyaan yang sering diajukan (FaQs), dan Pengaturan
+        \n\n<b>4. About Us</b>
+        \nContain the description of our company and product, manual on how to use AirBiliNest and this app.
     </string>
 
     <!-- FAQ -->
-    <string name="title_faq_1"><b>Pertanyaan yang sering diajukan (FaQ)</b></string>
+
+    <string name="title_faq_1"><b>Frequently Asked Questions (FaQ)</b></string>
     <string name="text_faq_1">
-        \n<b>1. Tidak dapat membuka halaman kontrol AirBilinest</b>
-        \n\nCek apakah ponsel anda sudah terhubung dengan WiFi AirBiliNest
+        \n<b>1. Why I can\'t open/connected to the control page?</b>
+        \n\nCheck if your phone already connected to AirBiliNest wifi
         \nSSID\t\t\t\t\t: AirBiliNest
         \nPassword\t: 12345678
-        \ndan matikan data ponse anda.
+        \nand turn off your mobile internet data.
     </string>
     <string name="text_faq_2">
-        \n<b>2. Dimana export excel data pasien tersimpan?</b>
-        \n\nFile export excel data pasien tersimpan pada folder unduhan ponsel anda dengan nama file \'PatientData.xlsx\'.
+        \n<b>2. Where is the exported excel file located?</b>
+        \n\nThe exported excel of patient data is saved on the download folder of your phone by the name \'PatientData.xlsx\'.
     </string>
     <string name="text_faq_3">
-        \n<b>3. Kenapa data export excel pasien tidak tersimpan pada ponsel saya?</b>
-        \n\nMohon izinkan aplikasi untuk mengakses file pada saat anda pertama kali membuka aplikasi
+        \n<b>3. Why is the exported excel not saved on my phone?</b>
+        \n\nPlease allow the app permission to save and read files on the phone.
     </string>
     <string name="text_faq_4">
-        \n<b>4. Halaman BiliNorm tidak dapat terbuka</b>
-        \n\nSaat pertama kali membuka halaman BiliNorm, mohon pastikan ponsel anda terhubung dengan data internet atau WiFi yang memiliki akses internet yang baik
+        \n<b>4. The BiliNorm page cannot be opened</b>
+        \n\nWhen opening the BiliNorm page for the first time, please turn on your mobile data connection or connect to wifi with internet connection.
     </string>
     <string name="text_faq_5">
-        \n<b>5. Apakah ponsel saya harus selalu terkoneksi dengan WiFi AirBiliNest setiap waktu?</b>
-        \n\nKetika fototerapi sedang dalam proses, direkomendasikan untuk selalu terkoneksi dengan WiFi AirBiliNest. Direkomendasikan untuk menggunakan ponsel khusus
-        yang didedikasikan sebagai ponsel pengontrol AirBiliNest.
+        \n<b>5. Do my phone need to be connected to the AirBiliNest WiFi all the time?</b>
+        \n\nWhen the phototherapy is in process it is recommended that your phone is always connected to the AirBiliNest Wifi. Recommended to use
+        dedicated mobile phone to control the AirBiliNest.
     </string>
     <string name="text_faq_6">
-        \n<b>6. Bisakah saya mentransfer rekam data pasien dari satu ponsel ke ponsel yang lain?</b>
-        \n\nFile ekstrak excel dapat dikirim ke ponsel lain, namun untuk memindahkan data pasien dari satu aplikasi AirBiliNest ke aplikasi AirBiliNest di ponse lain
-        untuk saat ini belum tersedia.
+        \n<b>6. Can I transfer the patient data from one phone to other phone?</b>
+        \n\nThe extracted file can be shared to other devices, but to transfer the data from one AirBiliNest app to other AirBiliNest app on other phone
+        is not yet supported.
     </string>
 
     <!-- Strings used for fragments for navigation -->
@@ -171,25 +171,25 @@
 
     <!-- Manual Airbilinest Button -->
     <string name="Manual_airbilinest">
-        Klik untuk mendownload seri manual AirBiliNest
+        Click to download the manual for your AirBiliNest Series
     </string>
 
-    <!-- Login -->
+    <!-- Halaman Login -->
     <string name="welcome">
-        <b>Selamat Datang</b>
+        <b>Welcome</b>
     </string>
 
     <!-- Control -->
     <string name="tryagain_btn">
-        Coba Lagi
+        Try Again
     </string>
     <string name="tryagain_text">
-        Pastikan ponsel anda terhubung dengan WiFi AirBiliNest
+        Please Make Sure Your Phone is connected to AirBiliNest WiFi
     </string>
 
     <!-- Record -->
-    <string name="text_addpatient">Tambah Pasien</string>
-    <string name="text_exporttoexcel">Export ke Excel</string>
+    <string name="text_addpatient">Add Patient</string>
+    <string name="text_exporttoexcel">Export to Excel</string>
 
     <!-- Patient record -->
     <string name="patient_id">Patient ID</string>
@@ -205,14 +205,12 @@
 
     <string name="delete">Delete</string>
 
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="indonesian">Indonesian</string>
 
     <!-- Platform -->
     <string name="platform_title">Platform</string>
-
-    <!-- Pengaturan -->
-    <string name="language">Bahasa</string>
-    <string name="select_language">Pilih Bahasa</string>
-    <string name="english">Inggris</string>
-    <string name="indonesian">Indonesia</string>
 
 </resources>
