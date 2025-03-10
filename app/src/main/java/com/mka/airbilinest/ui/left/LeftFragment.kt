@@ -31,8 +31,6 @@ class LeftFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val dashboardViewModel =
-            ViewModelProvider(this).get(LeftViewModel::class.java)
 
         _binding = FragmentBilinormBinding.inflate(inflater, container, false)
         val root: View = binding.root
